@@ -1,0 +1,34 @@
+*{
+   margin: 0; 
+   padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui;
+
+}
+.title{
+    font-size: 30px;
+}
+ul{
+    position: relative;
+    left: 30px;
+}
+.reload{
+    padding : 10px;
+    margin-top:10px;
+    outline: none;
+    border: none;
+    background: grey;
+    color: white;
+    border-radius:20px;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
